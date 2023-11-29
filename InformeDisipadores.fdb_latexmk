@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1701266630 "d:/VSCode/TP-TME-Disipadores/InformeDisipadores.tex" "InformeDisipadores.pdf" "InformeDisipadores" 1701266632 0
+["pdflatex"] 1701269228 "d:/VSCode/TP-TME-Disipadores/InformeDisipadores.tex" "InformeDisipadores.pdf" "InformeDisipadores" 1701269230 0
   "C:/Users/Facu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1701223222 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Facu/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1694042988 24141563 4801cadbdbd84acea28a117c3907e2d0 ""
   "C:/Users/Facu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -170,10 +170,10 @@
   "C:/Users/Facu/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/ot1ptm.fd" 1585253778 1007 15056f4a61917ceed3a44e4ac11fcc52 ""
   "C:/Users/Facu/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/ts1ptm.fd" 1585253778 653 96f56dc5d1ef1fe1121f1cfeec70ee0c ""
   "C:/Users/Facu/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "InformeDisipadores.aux" 1701266632 1892 ef9cc9b60c26641a1d713b5ee88d8835 "pdflatex"
-  "InformeDisipadores.tex" 1701266627 8941 3d451917d5866f53eb3e0f24463e9468 ""
+  "InformeDisipadores.aux" 1701269230 1963 42120e5ca665e62d8470af23b99c2dfd "pdflatex"
+  "InformeDisipadores.tex" 1701269226 9581 9937ecafcb9ccc013e30ebc6bf47b0c4 ""
   "PlanoRamiCompleto.png" 1701226490 7180 821b1bbd7a5ad8fa46dd2d513d762754 ""
-  "d:/VSCode/TP-TME-Disipadores/InformeDisipadores.tex" 1701266627 8941 3d451917d5866f53eb3e0f24463e9468 ""
+  "d:/VSCode/TP-TME-Disipadores/InformeDisipadores.tex" 1701269226 9581 9937ecafcb9ccc013e30ebc6bf47b0c4 ""
   "disipadorFacu.png" 1701226483 25231 6d74c2fe50ab29519f2c962ce8bc7a7f ""
   (generated)
   "InformeDisipadores.aux"
