@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1701226324 "/home/rami/TME/TP-TME-Disipadores/InformeDisipadores.tex" "InformeDisipadores.pdf" "InformeDisipadores" 1701226325 2
+["pdflatex"] 1701227092 "/home/rami/TME/TP-TME-Disipadores/InformeDisipadores.tex" "InformeDisipadores.pdf" "InformeDisipadores" 1701227093 0
   "/home/rami/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map" 1695306460 5581261 9420d8bd1f5a3f106884e910c27f195c ""
   "/home/rami/.miktex/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1698694739 20963062 a08879c9e88321a14e90bb5fc3fbd6f8 ""
   "/home/rami/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc" 1695305470 4993 1194fb36dfcb11d9ae9802f2b00b60a3 ""
@@ -31,8 +31,6 @@
   "/home/rami/.miktex/texmfs/install/fonts/tfm/public/cm/cmsy6.tfm" 1695305379 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/home/rami/.miktex/texmfs/install/fonts/tfm/public/cm/cmsy8.tfm" 1695305379 1120 8b7d695260f3cff42e636090a8002094 ""
   "/home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1695305235 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
-  "/home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1695305235 36281 c355509802a035cadc5f15869451dcee ""
-  "/home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1695305235 35752 024fb6c41858982481f6968b5fc26508 ""
   "/home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1695305235 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
   "/home/rami/.miktex/texmfs/install/fonts/type1/public/urw-base35/utmb8a.pfb" 1695306375 44729 811d6c62865936705a31c797a1d5dada ""
   "/home/rami/.miktex/texmfs/install/fonts/type1/public/urw-base35/utmbi8a.pfb" 1695306375 44656 0cbca70e0534538582128f6b54593cca ""
@@ -85,10 +83,11 @@
   "/home/rami/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def" 1695305698 29940 9473d58112bc8a88f5505b823a053dde ""
   "/home/rami/.miktex/texmfs/install/tex/latex/psnfss/ot1ptm.fd" 1695306046 1007 39eda417ef5837ce5e38661cfad2cedf ""
   "/home/rami/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty" 1695306414 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "/home/rami/TME/TP-TME-Disipadores/InformeDisipadores.tex" 1701226321 2361 6079bb248d64e450b6b4e169730de5f0 ""
-  "InformeDisipadores.aux" 1701226324 1102 f20c3627ef1f9d74ac6c0007b457072f "pdflatex"
-  "InformeDisipadores.tex" 1701226321 2361 6079bb248d64e450b6b4e169730de5f0 ""
+  "/home/rami/TME/TP-TME-Disipadores/InformeDisipadores.tex" 1701227091 2572 5298e70205e6b4122db45fa65711db70 ""
+  "InformeDisipadores.aux" 1701227092 988 c2e23ce4450cb82cd3c9e51cc9d44fe0 "pdflatex"
+  "InformeDisipadores.tex" 1701227091 2572 5298e70205e6b4122db45fa65711db70 ""
   "PlanoRamiCompleto.png" 1701226321 7180 b8f33952c6e20c11ff76ff4cf6b280de ""
+  "disipadorFacu.png" 1701226321 25390 322b385cd193d5d9b492d700f2b5f40a ""
   (generated)
   "InformeDisipadores.aux"
   "InformeDisipadores.log"

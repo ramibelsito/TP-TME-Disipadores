@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.10.30)  28 NOV 2023 23:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.10.30)  29 NOV 2023 00:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -266,7 +266,10 @@ Package babel Info: Importing font and identification data for spanish
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count285
 \l__pdf_internal_box=\box55
-) (InformeDisipadores.aux)
+) (InformeDisipadores.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+)
 \openout1 = `InformeDisipadores.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -342,24 +345,13 @@ LaTeX Font Info:    Calculating math sizes for size <11> on input line 33.
 <PlanoRamiCompleto.png, id=1, 487.8225pt x 374.14781pt>
 File: PlanoRamiCompleto.png Graphic file (type png)
 <use PlanoRamiCompleto.png>
-Package pdftex.def Info: PlanoRamiCompleto.png  used on input line 52.
-(pdftex.def)             Requested size: 180.60315pt x 138.51814pt.
-
-/home/rami/TME/TP-TME-Disipadores/InformeDisipadores.tex:68: Missing $ inserted.
-<inserted text> 
-                $
-l.68 En su orientación óptima, la distancia d_
-                                                vert es de 25,55$mm$.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/rami/TME/TP-TME-Disipadores/InformeDisipadores.tex:69: Missing $ inserted.
-<inserted text> 
-                $
-l.69 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+Package pdftex.def Info: PlanoRamiCompleto.png  used on input line 51.
+(pdftex.def)             Requested size: 154.80157pt x 118.73065pt.
+<disipadorFacu.png, id=3, 380.01974pt x 299.9205pt>
+File: disipadorFacu.png Graphic file (type png)
+<use disipadorFacu.png>
+Package pdftex.def Info: disipadorFacu.png  used on input line 54.
+(pdftex.def)             Requested size: 154.80157pt x 122.17189pt.
 
 
 ** Conference Paper **
@@ -375,7 +367,7 @@ Before submitting the final camera ready copy, remember to:
 [1{/home/rami/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}{/home/rami/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}
 
 
- <./PlanoRamiCompleto.png>] (InformeDisipadores.aux
+ <./PlanoRamiCompleto.png> <./disipadorFacu.png>] (InformeDisipadores.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
@@ -385,17 +377,17 @@ L3 programming layer <2023-08-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6205 strings out of 477183
- 100255 string characters out of 5809612
- 1925807 words of memory out of 5000000
- 27403 multiletter control sequences out of 15000+600000
+ 6209 strings out of 477183
+ 100376 string characters out of 5809612
+ 1926807 words of memory out of 5000000
+ 27407 multiletter control sequences out of 15000+600000
  597162 words of font info for 119 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  61i,11n,69p,275b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/urw-base35/utmb8a.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/urw-base35/utmbi8a.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/urw-base35/utmr8a.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/urw-base35/utmri8a.pfb>
-Output written on InformeDisipadores.pdf (1 page, 95444 bytes).
+</home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/urw-base35/utmb8a.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/urw-base35/utmbi8a.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/urw-base35/utmr8a.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/urw-base35/utmri8a.pfb>
+Output written on InformeDisipadores.pdf (1 page, 96521 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
+ 42 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
