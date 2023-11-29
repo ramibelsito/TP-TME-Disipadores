@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.10.30)  29 NOV 2023 01:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.10.30)  29 NOV 2023 01:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -359,7 +359,10 @@ Package pdftex.def Info: disipadorFacu.png  used on input line 54.
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 70.
  (/home/rami/.miktex/texmfs/install/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
+) [1{/home/rami/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}{/home/rami/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}
+
+
+ <./PlanoRamiCompleto.png> <./disipadorFacu.png>]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -371,10 +374,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[1{/home/rami/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}{/home/rami/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}
-
-
- <./PlanoRamiCompleto.png> <./disipadorFacu.png>] [2
+[2
 
 ] (InformeDisipadores.aux
 LaTeX Info: Redefining \. on input line 8.
@@ -392,13 +392,13 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  6250 strings out of 477183
  101097 string characters out of 5809612
- 1938807 words of memory out of 5000000
+ 1936807 words of memory out of 5000000
  27441 multiletter control sequences out of 15000+600000
  601403 words of font info for 124 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  61i,12n,69p,275b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr5.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/urw-base35/utmb8a.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/urw-base35/utmbi8a.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/urw-base35/utmr8a.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/urw-base35/utmri8a.pfb>
-Output written on InformeDisipadores.pdf (2 pages, 178428 bytes).
+Output written on InformeDisipadores.pdf (2 pages, 179319 bytes).
 PDF statistics:
  85 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
