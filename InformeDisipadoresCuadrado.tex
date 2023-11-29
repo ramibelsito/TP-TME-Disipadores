@@ -58,7 +58,7 @@ del disipador, frente a la posición óptima.
 \section{Forma y Dimensiones}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.25\textwidth]{disipadorFacu.png}
+    \includegraphics[width=0.25\textwidth]{DisipadorFacuCuadrado.png}
     \caption{Plano del disipador 1 ($*^1$)}
 \end{figure}
 \begin{figure}[H]
@@ -84,11 +84,11 @@ La temperatura de trabajo máxima del LM317 se encuentra en 150°C, y la tempera
 se presume a 25°C. Obteniendo asi $\Delta T = 125$°C.
 Meidante la función de análisis de propiedades físicas del modelado en SolidWorks, se obtuvieron
 los datos pertinentes al cálculo de la resistencia:
-$A_d$ = 1196,35 $mm^2$
+$A_d$ = 1435,62 $mm^2$
 $d_v$ = 9,67 $mm$.
 
 \begin{align*}
-    R_{sa} = 58,5 C/W
+    R_{sa} = 48,75 C/W
 \end{align*}
 
 \subsection{Disipador 2 ($*^2$)}
@@ -194,7 +194,7 @@ se concluirá su posición más eficiente para la convección natural.
         \hline
         $R_{sa}$ (hoja de datos) & 28 C/W & 12,4 C/W \\
         \hline
-        $R_{sa}$ (teórica) & 58,5 C/W & 14,1 C/W \\
+        $R_{sa}$ (teórica) & 48,75 C/W & 14,1 C/W \\
         \hline
         $R_{sa}$ (experimental) & 23,1 C/W & 11,6 C/W \\
         \hline
@@ -205,30 +205,27 @@ se concluirá su posición más eficiente para la convección natural.
 
     \section{Conclusiones}
 
-    Mediante los experimentos que llevamos a cabo y sus resultados, podemos concluir que la utilización de grasa 
-    siliconada mejora la transferencia de calor entre el componente y el disipador en un promedio de 20\%. Además,
-    probando distintas posiciones del disipador, concluimos que la posición vertical es la más eficiente,
-    \\La posición vertical del disipador (posición 1) mostró ser la más efectiva para disipar calor. En esta orientación, 
-    la convección natural permite un flujo más eficiente del aire caliente hacia arriba, alejándolo del componente que 
-    genera calor y facilitando su disipación hacia el entorno. Por último, cabe aclarar que la utilización de un
-    disipador es fundamental para la disipación de calor de un componente, ya que sin él, el componente podría elevar
-    su temperatura por encima de la temperatura máxima de trabajo, y dañarse. \\Una observación importante del experimento
-    es que la ventilación forzada aumenta activamente el flujo de aire alrededor del componente caliente, mejorando 
-    significativamente la disipación de calor al eliminarlo más rápido. Simulamos una confinación del circuito posicionandolo
-    en una caja cerrada, y la corriente mínima a la salida fue menor a la obtenida sin confinación. Luego, ventilamos
-    manualmente el circuito, y la corriente mínima a la salida fue mayor a la obtenida sin ventilación.
-    \\También, puede verse en los resultados
+    Finalmente, podemos concluir que la utilización de grasa siliconada mejora la transferencia de calor entre el
+    componente y el disipador en un promedio de 20\%. 
+    \\Además, probando distintas posiciones del disipador, concluimos que la posición vertical (posición 1) es la más eficiente.
+    En esta orientación, la convección natural permite aprovechar el flujo del aire caliente hacia arriba, alejándolo del componente que 
+    genera calor y facilitando su disipación hacia el entorno.\\Una observación importante del experimento
+    es que la ventilación forzada aumenta significativamente la potencia que se logra disipar, incluso con velocidades de ventilación relativamente bajas.
+    Simulamos una confinación del circuito posicionandolo
+    en una caja cerrada, observando cuantitativamente que la corriente mínima a la salida fue menor a la obtenida sin confinación.
+    \\La utilización de un disipador para el LM317 ayuda a obtener el mejor rendimiento del mismo, evitando el estrangulamiento
+    térmico. Esto puede verse en los resultados
     experimentales que cualquiera sea la posición del disipador, la potencia disipada siempre es mayor a la de un
     componente sin disipador, por lo que la utilización de un disipador siempre es recomendable.
 
     \section{Apéndice}
-    ($*^1$) Disipador 1: Modelo 551002B00000G de la marca Boyd \\
-    ($*^2$) Disipador 2: Modelo 274-1AB de la marca Wakefield-Vette \\
+    ($*^1$) Disipador 1: Modelo 551002B00000G de la marca Boyd Corporation\\
+    ($*^2$) Disipador 2: Modelo 507302B00000G de la marca Boyd Corporation \\
     \section{Bibliografía}
     \begin{itemize}
-        \item \href{https://www.digikey.com/en/products/detail/wakefield-vette/274-1AB/340321}{Hoja de Datos Disipador 1}
-        \item \href{https://es.farnell.com/boyd/551002b00000g/heat-sink/dp/1339511}{Hoja de Datos Disipador 2}
-        \item \href{https://www.alldatasheet.es/datasheet-pdf/pdf/22749/STMICROELECTRONICS/LM317.html}{Hoja de Datos LM317}
+        \item \href{https://www.digikey.com/en/products/detail/aavid-thermal-division-of-boyd-corporation/507302B00000G/5849}{Datasheet Disipador 1}
+        \item \href{https://es.farnell.com/boyd/551002b00000g/heat-sink/dp/1339511}{Datasheet Disipador 2}
+        \item \href{https://www.alldatasheet.es/datasheet-pdf/pdf/22749/STMICROELECTRONICS/LM317.html}{Datasheet LM317}
     \end{itemize}
 
 \end{document}
