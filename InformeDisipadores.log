@@ -1,13 +1,13 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.9.6)  29 NOV 2023 01:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.10.30)  29 NOV 2023 01:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**d:/VSCode/TP-TME-Disipadores/InformeDisipadores.tex
-(d:/VSCode/TP-TME-Disipadores/InformeDisipadores.tex
+**/home/rami/TME/TP-TME-Disipadores/InformeDisipadores.tex
+(/home/rami/TME/TP-TME-Disipadores/InformeDisipadores.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
-(C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/latex/ieeetran\IEEEtran.cls
+(/home/rami/.miktex/texmfs/install/tex/latex/ieeetran/IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
@@ -19,7 +19,7 @@ Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 \@IEEEtrantmpcountC=\count187
 \@IEEEtrantmptoksA=\toks17
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 503.
-(C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+(/home/rami/.miktex/texmfs/install/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -105,25 +105,25 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \@IEEEtranrubishbin=\box52
 )
 ** ATTENTION: Overriding command lockouts (line 2).
-(C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/latex/cite\cite.sty
+(/home/rami/.miktex/texmfs/install/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
-) (C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+) (/home/rami/.miktex/texmfs/install/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(/home/rami/.miktex/texmfs/install/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
- (C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+ (/home/rami/.miktex/texmfs/install/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
 \ex@=\dimen164
-)) (C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+)) (/home/rami/.miktex/texmfs/install/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen165
-) (C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+) (/home/rami/.miktex/texmfs/install/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count266
@@ -173,20 +173,20 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+) (/home/rami/.miktex/texmfs/install/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+ (/home/rami/.miktex/texmfs/install/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithmic.sty
+)) (/home/rami/.miktex/texmfs/install/tex/latex/algorithms/algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
- (C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+ (/home/rami/.miktex/texmfs/install/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-) (C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+) (/home/rami/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks23
 )
@@ -196,30 +196,30 @@ Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \c@ALC@depth=\count281
 \ALC@tlm=\skip54
 \algorithmicindent=\skip55
-) (C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+) (/home/rami/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+ (/home/rami/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+ (/home/rami/.miktex/texmfs/install/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+) (/home/rami/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+ (/home/rami/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen173
 \Gin@req@width=\dimen174
-) (C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+) (/home/rami/.miktex/texmfs/install/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-) (C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+) (/home/rami/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
- (C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+ (/home/rami/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
- (C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+ (/home/rami/.miktex/texmfs/install/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
 Package xcolor Info: Model `RGB' extended on input line 1369.
@@ -229,32 +229,40 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
-) (C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+) (/home/rami/.miktex/texmfs/install/tex/generic/babel/babel.sty
 Package: babel 2023/08/29 v3.93 The Babel package
 \babel@savecnt=\count282
 \U@D=\dimen175
-\l@unhyphenated=\language79
- (C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\l@unhyphenated=\language1
+ (/home/rami/.miktex/texmfs/install/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count283
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+(/home/rami/.miktex/texmfs/install/tex/latex/arabi/bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
-) (C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.ldf
+) (/home/rami/.miktex/texmfs/install/tex/latex/babel-spanish/spanish.ldf
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+
+
+Package babel Warning: No hyphenation patterns were preloaded for
+(babel)                the language 'Spanish' into the format.
+(babel)                Please, configure your TeX system to add them and
+(babel)                rebuild the format. Now I will use the patterns
+(babel)                preloaded for \language=0 instead on input line 51.
+
 \es@quottoks=\toks24
 \es@quotdepth=\count284
 Package babel Info: Making " an active character on input line 570.
 Package babel Info: Making . an active character on input line 675.
 Package babel Info: Making < an active character on input line 722.
 Package babel Info: Making > an active character on input line 722.
-)) (C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es\babel-spanish.tex
+)) (/home/rami/.miktex/texmfs/install/tex/generic/babel/locale/es/babel-spanish.tex
 Package babel Info: Importing font and identification data for spanish
 (babel)             from babel-es.ini. Reported on input line 11.
-) (C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+) (/home/rami/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count285
 \l__pdf_internal_box=\box55
@@ -284,7 +292,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 
 -- Lines per column: 56 (exact).
-(C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+(/home/rami/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count286
 \scratchdimen=\dimen176
@@ -297,23 +305,23 @@ LaTeX Font Info:    ... okay on input line 14.
 \MPnumerator=\count290
 \makeMPintoPDFobject=\count291
 \everyMPtoPDFconversion=\toks26
-) (C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+) (/home/rami/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
- (C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+ (/home/rami/.miktex/texmfs/install/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+) (/home/rami/.miktex/texmfs/install/tex/latex/grfext/grfext.sty
 Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
- (C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+ (/home/rami/.miktex/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)) (C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+)) (/home/rami/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
- (C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+ (/home/rami/.miktex/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-) (C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+) (/home/rami/.miktex/texmfs/install/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)) (C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+)) (/home/rami/.miktex/texmfs/install/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+ (/home/rami/.miktex/texmfs/install/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -324,17 +332,17 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 504.
- (C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+ (/home/rami/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 LaTeX Info: Redefining \. on input line 14.
 LaTeX Info: Redefining \% on input line 14.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 33.
- (C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+ (/home/rami/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
- (C:\Users\Facu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+ (/home/rami/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 33.
@@ -348,11 +356,10 @@ File: disipadorFacu.png Graphic file (type png)
 <use disipadorFacu.png>
 Package pdftex.def Info: disipadorFacu.png  used on input line 54.
 (pdftex.def)             Requested size: 154.80157pt x 122.45612pt.
-
-Overfull \hbox (13.35727pt too wide) detected at line 70
-[]\OML/cmm/m/it/10 R[] \OT1/cmr/m/n/10 = [] \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 ([])[] = [] \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 ([])[]
- []
-
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 70.
+ (/home/rami/.miktex/texmfs/install/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -364,7 +371,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[1{C:/Users/Facu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Facu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
+[1{/home/rami/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}{/home/rami/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}
 
 
  <./PlanoRamiCompleto.png> <./disipadorFacu.png>] [2
@@ -383,17 +390,17 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6220 strings out of 475248
- 101721 string characters out of 5758286
- 1938801 words of memory out of 5000000
- 27654 multiletter control sequences out of 15000+600000
- 601089 words of font info for 123 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 61i,12n,69p,270b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Facu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Facu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Facu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Facu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Facu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Facu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Facu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Facu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Facu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Facu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Facu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Facu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Facu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on InformeDisipadores.pdf (2 pages, 168236 bytes).
+ 6250 strings out of 477183
+ 101097 string characters out of 5809612
+ 1938807 words of memory out of 5000000
+ 27441 multiletter control sequences out of 15000+600000
+ 601403 words of font info for 124 fonts, out of 8000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 61i,12n,69p,275b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr5.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/urw-base35/utmb8a.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/urw-base35/utmbi8a.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/urw-base35/utmr8a.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/urw-base35/utmri8a.pfb>
+Output written on InformeDisipadores.pdf (2 pages, 178428 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
+ 85 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

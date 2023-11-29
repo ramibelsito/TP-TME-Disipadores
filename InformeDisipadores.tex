@@ -60,15 +60,30 @@ es una pieza única, a diferencia de los fabricados por extrusión, que son piez
 a la medida requerida
 
 \section{Cálculos Teóricos}
-\subsection{Disipador 1}
-
-La superficie de contacto, obtenida a través del modelado en Solidworks, es de 6915,40$mm^2$ y
-su distancia vertical ($d_v$) es de 25,55$mm$.
-Por lo tanto, mediante la ecuación de la resistencia térmica por convección natural se obtiene:
+La resistencia térmica de un disipador dada por convección natural se calcula mediante la siguiente
+ecuación:
 \begin{equation}
-    R_{sa} = \frac{1}{1,34\cdot A_s}\cdot (\frac{d_v}{\Delta T})^{\frac{1}{4}} = \frac{1}{1,34\cdot 6915,40mm^2}\cdot (\frac{25,55mm}{150-25})^{\frac{1}{4}}
+    R_{sa} = \frac{1}{1,34\cdot A_s}\cdot (\frac{d_v}{\Delta T})^{\frac{1}{4}}
 \end{equation}
-
+Donde $A_s$ es la superficie de contacto entre el disipador y el aire, $d_v$ es la distancia vertical.
+\subsection{Disipador 1}
+La temperatura de trabajo máxima del LM317 se encuentra en 150°C, y la temperatura ambiente
+se presume a 25°C. Obteniendo asi $\Delta T = 125$°C.
+Meidante la función de análisis de propiedades físicas del modelado en SolidWorks, se obtuvieron
+los datos pertinentes al cálculo de la resistencia:
+$A_d$ = 6915,40 $mm^2$
+$d_v$ = 25,55 $mm$.
+\begin{align*}
+    R_{sa} &= \frac{1}{1,34\cdot 6915,40mm^2}\cdot \left(\frac{25,55mm}{150-25}\right)^{\frac{1}{4}} = 12,9 C/W
+\end{align*}
+\subsection{Disipador 2}
+Utilizando la misma metodología que en el Disipador 1 y frente a las mismas condiciones,
+se obtuvieron los siguientes datos:
+$A_d$ = 1196,35 $mm^2$
+$d_v$ = 9,67 $mm$.
+\begin{align*}
+    R_{sa} &= \frac{1}{1,34\cdot 1196,35mm^2}\cdot \left(\frac{9,67mm}{150-25}\right)^{\frac{1}{4}} = 58,5 C/W
+\end{align*}
 \section{Mediciones Experimentales}
 A continuación pueden observarse las mediciones llevadas a cabo en el laboratorio. Se analizaron
 distintas posiciones para cada disipador y se concluirá su posición más eficiente para la convección
