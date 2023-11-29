@@ -8,6 +8,7 @@
 \usepackage{textcomp}
 \usepackage{xcolor}
 \usepackage[spanish]{babel}
+\usepackage{circuitikz}
 
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
@@ -66,6 +67,7 @@ ecuación:
     R_{sa} = \frac{1}{1,34\cdot A_s}\cdot (\frac{d_v}{\Delta T})^{\frac{1}{4}}
 \end{equation}
 Donde $A_s$ es la superficie de contacto entre el disipador y el aire, $d_v$ es la distancia vertical.
+
 \subsection{Disipador 1}
 La temperatura de trabajo máxima del LM317 se encuentra en 150°C, y la temperatura ambiente
 se presume a 25°C. Obteniendo asi $\Delta T = 125$°C.
@@ -82,12 +84,24 @@ se obtuvieron los siguientes datos:
 $A_d$ = 1196,35 $mm^2$
 $d_v$ = 9,67 $mm$.
 
-\textcolor{red}{CHEQUEAR ESTE RESULTADO}
 \begin{align*}
     R_{sa} &= \frac{1}{1,34\cdot 1196,35mm^2}\cdot \left(\frac{9,67mm}{150-25}\right)^{\frac{1}{4}} = 58,5 C/W
 \end{align*}
+\textcolor{red}{CHEQUEAR ESTE RESULTADO}
+\subsection{Circuito Térmico Equivalente}
 
-\textcolor{red}{DIBUJAR CIRCUITO}
+\begin{figure}[h]
+    \centering
+    \begin{circuitikz}[american, cute inductors, scale=0.5]
+        \draw (0,0) to[I,,l=$Q$] (0,3)
+                    to[R, l=$R_{jc}$] (4,3)
+                    to[R, l=$R_{cs}$] (8,3)
+                    to[R, l=$R_{sa}$] (8,0)
+                    to[short] (0,0);
+    \end{circuitikz}
+\end{figure}
+
+
 \section{Mediciones Experimentales}
 A continuación pueden observarse las mediciones llevadas a cabo en el laboratorio. Primero,
 Se estudiará la corriente en la salida del LM317 y su tensión, así teniendo idea de la potencia
