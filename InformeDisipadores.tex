@@ -62,10 +62,35 @@ a la medida requerida
 \section{Cálculos Teóricos}
 \subsection{Disipador 1}
 
-La superficie de contacto, obtenida a través del modelado en Solidworks, es de 6915,40$m^2$.
+La superficie de contacto, obtenida a través del modelado en Solidworks, es de 6915,40$mm^2$ y
+su distancia vertical ($d_v$) es de 25,55$mm$.
+Por lo tanto, mediante la ecuación de la resistencia térmica por convección natural se obtiene:
+\begin{equation}
+    R_{sa} = \frac{1}{1,34\cdot A_s}\cdot (\frac{d_v}{\Delta T})^{\frac{1}{4}} = \frac{1}{1,34\cdot 6915,40mm^2}\cdot (\frac{25,55mm}{150-25})^{\frac{1}{4}}
+\end{equation}
 
 \section{Mediciones Experimentales}
-A continuacion
+A continuación pueden observarse las mediciones llevadas a cabo en el laboratorio. Se analizaron
+distintas posiciones para cada disipador y se concluirá su posición más eficiente para la convección
+natural. Se estudiará la corriente en la salida del LM317 y su tensión, así teniendo idea de la potencia
+que está disipando el componente. Además, se analiza el comportamiento del disipador con la presencia 
+de grasa siliconada.
 
+\begin{table}[htbp]
+    \caption{Table Type Styles}
+    \begin{center}
+    \begin{tabular}{|c|c|c|c|}
+    \hline
+    \textbf{Table}&\multicolumn{3}{|c|}{\textbf{Table Column Head}} \\
+    \cline{2-4} 
+    \textbf{Head} & \textbf{\textit{Table column subhead}}& \textbf{\textit{Subhead}}& \textbf{\textit{Subhead}} \\
+    \hline
+    copy& More table copy$^{\mathrm{a}}$& &  \\
+    \hline
+    \multicolumn{4}{l}{$^{\mathrm{a}}$Sample of a Table footnote.}
+    \end{tabular}
+    \label{tab1}
+    \end{center}
+    \end{table}
 
 \end{document}
