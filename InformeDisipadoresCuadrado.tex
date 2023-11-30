@@ -11,6 +11,8 @@
 \usepackage{circuitikz}
 \usepackage{float}
 \usepackage{hyperref}
+\usepackage{amsmath} 
+\usepackage{siunitx} 
 
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
@@ -42,34 +44,35 @@ para el buen funcionamiento de un regulador de tensión con encapsulado TO220.
 \end{abstract}
 
 \section{Introduction}
-Se analizará la resistencia térmica de estos por medio de la práctica y se comparará con los valores 
+Se analizará la resistencia térmica de los disipadores por medio de la práctica y se comparará con los valores 
 obtenidos por medio de las ecuaciones teóricas y la hoja de datos del fabricante. Para esto realizamos un
-circuito detallado a continuación, de modo que se caliente y forzar la activación del el circuito interno de
-protección por temperatura. Sobre el mismo conectamos en serie un amperímetro para encontrar la corriente
-que circula por el LM317 con estrangulamiento térmico,la cual esta en relación directa con la potencia (Q).
+circuito detallado a continuación, de modo que se caliente mediante un cortocircuito 
+y forzar la activación del circuito interno de protección por temperatura. Sobre el mismo conectamos en 
+serie un amperímetro para encontrar la corriente que circula por el LM317 con estrangulamiento térmico, la 
+cual tiene una relación directa con la potencia (Q).
 Con estos datos se realizará el circuito térmico equivalente y se estudiará la influencia del posicionamiento
-del disipador, frente a la posición óptima.
+del disipador frente a la posición óptima, y la presencia de grasa siliconada entre el disipador y el componente.
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.25\textwidth]{CircuitoDeMedicion.png}
+    \includegraphics[width=0.4\textwidth]{CircuitoDeMedicion.png}
     \caption{Circuito de Medición}
 \end{figure}
 
 \section{Forma y Dimensiones}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.25\textwidth]{DisipadorFacuCuadrado.png}
+    \includegraphics[width=0.4\textwidth]{DisipadorFacuCuadrado.png}
     \caption{Plano del disipador 1 ($*^1$)}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.25\textwidth]{PlanoRamiCompleto.png}
+    \includegraphics[width=0.4\textwidth]{PlanoRamiCompleto.png}
     \caption{Plano del disipador 2 ($*^2$)}
 \end{figure}
 Ambos disipadores son estampados sobre una plancha de aluminio anodizado, y luego tratado con otros 
 procesos mecánicos para obtener la forma de cada uno. Por su método de fabricación cada disipador
 es una pieza única, a diferencia de los fabricados por extrusión, que son piezas continuas cortadas 
-a la medida requerida
+a la medida requerida.
 
 \section{Cálculos Teóricos}
 La resistencia térmica de un disipador dada por convección natural se calcula mediante la siguiente
@@ -77,27 +80,27 @@ ecuación:
 \begin{equation}
     R_{sa} = \frac{1}{1,34\cdot A_s}\cdot (\frac{d_v}{\Delta T})^{\frac{1}{4}}
 \end{equation}
-Donde $A_s$ es la superficie de contacto entre el disipador y el aire, $d_v$ es la distancia vertical.
+Donde $A_s$ es la superficie de contacto entre el disipador y el aire, y $d_v$ es la distancia vertical.
 
 \subsection{Disipador 1 ($*^1$)}
 La temperatura de trabajo máxima del LM317 se encuentra en 150°C, y la temperatura ambiente
-se presume a 25°C. Obteniendo asi $\Delta T = 125$°C.
-Meidante la función de análisis de propiedades físicas del modelado en SolidWorks, se obtuvieron
+se presume a 25°C. Obteniendo asi $\Delta T = 125$°C.\\
+Mediante la función de análisis de propiedades físicas del modelado en SolidWorks, se obtuvieron
 los datos pertinentes al cálculo de la resistencia:
-$A_d$ = 1435,62 $mm^2$
+$A_s$ = 1435,62 $mm^2$
 $d_v$ = 9,67 $mm$.
 
 \begin{align*}
-    R_{sa} = 48,75 C/W
+    R_{sa} =  48,75 \, \si{\celsius/W}
 \end{align*}
 
 \subsection{Disipador 2 ($*^2$)}
 Utilizando la misma metodología que en el Disipador 1 ($*^1$) y frente a las mismas condiciones,
 se obtuvieron los siguientes datos:
-$A_d$ = 6915,40 $mm^2$
+$A_s$ = 6915,40 $mm^2$
 $d_v$ = 36,83 $mm$.
 \begin{align*}
-    R_{sa} = 14,1 C/W
+    R_{sa} = 14,1 \, \si{\celsius/W}
 \end{align*}
 \subsection{Circuito Térmico Equivalente}
 
@@ -116,7 +119,7 @@ $d_v$ = 36,83 $mm$.
 
 \section{Mediciones Experimentales}
 A continuación pueden observarse las mediciones llevadas a cabo en el laboratorio. Primero,
-Se estudiará la corriente en la salida del LM317 y su tensión, así teniendo idea de la potencia
+se estudiará la corriente en la salida del LM317 y su tensión con el fin de obtener la potencia
 que está disipando el componente. Además, se analizará el comportamiento del disipador con la presencia 
 de grasa siliconada. Luego, se cambiaron los disipadores a distintas posiciones, y 
 se concluirá su posición más eficiente para la convección natural.
@@ -174,12 +177,11 @@ se concluirá su posición más eficiente para la convección natural.
         \label{tab1}
         \end{center}
     \end{table}
-
-    La eficiencia de la disipación de calor puede variar dependiendo de la orientación del disipador. 
+ 
     En este experimento, puede observarse que para ambos disipadores, la posición vertical es la más eficiente,
-    seguida por la posición diagonal y por último la posición horizontal. Esto se debe a que la posición vertical
-    permite que el aire caliente ascienda, y el aire frío descienda, generando una corriente de convección natural
-    que ayuda a disipar el calor. En cambio, en la posición horizontal, el aire caliente queda atrapado en el disipador,
+    seguida por la diagonal y por último la horizontal. Esto se debe a que la posición vertical
+    permite que el aire frío esté en mayor contacto con el disipador debido al flujo generado por convección natural. 
+    En cambio, en la posición horizontal, el aire caliente queda atrapado en el disipador,
     y el aire frío no puede ingresar, por lo que la disipación de calor es menos eficiente.\\
 
     En la siguiente tabla puede notarse una comparación entre las resistencias térmicas teóricas y las experimentales.
@@ -192,20 +194,31 @@ se concluirá su posición más eficiente para la convección natural.
         \cline{2-3}
         \textbf{térmicas} & \textbf{\textit{Disipador 1 ($*^1$)}} & \textbf{\textit{Disipador 2 ($*^2$)}} \\
         \hline
-        $R_{sa}$ (hoja de datos) & 28 C/W & 12,4 C/W \\
+        $R_{sa}$ (hoja de datos) & 24 \, \si{\celsius/W} & 12,4 \, \si{\celsius/W} \\
         \hline
-        $R_{sa}$ (teórica) & 48,75 C/W & 14,1 C/W \\
+        $R_{sa}$ (teórica) & 48,75 \, \si{\celsius/W} & 14,1 \, \si{\celsius/W} \\
         \hline
-        $R_{sa}$ (experimental) & 23,1 C/W & 11,6 C/W \\
+        $R_{sa}$ (experimental) & 23,1 \, \si{\celsius/W} & 11,6 \, \si{\celsius/W} \\
         \hline
         \end{tabular}
         \label{tab1}
         \end{center}
     \end{table}
 
+    \subsection{Observaciones}
+    Es evidente que en el disipador 1, la diferencia entre la resistencia teórica y la medida en la práctica es significativa.
+    Haciendo uso de la hoja de datos corroboramos que el valor medido es el correcto, ya que el resultado fue similar.
+    Además, en el caso de no tener un disipador, la resistencia $R_{ja}$ (50°C/W) del componente brindada por su hoja de datos
+    es similar a la calculada teóricamente para el disipador 1. Atribuimos esta diferencia a que el disipador 1 está diseñado
+    para ir apoyado sobre la placa de manera horizontal, por lo que la resistencia térmica efectiva $R_{ja}$ del componente 
+    no es de 50°C/W, sino de alrededor de 100 °C/W en este posicionamiento.
+    \\
+    Sin embargo, para el disipador 2 se puede observar que la resistencia térmica medida y teórica resultaron ser 
+    muy similares en comparación a la brindada por la hoja de datos.
+
     \section{Conclusiones}
 
-    Finalmente, podemos concluir que la utilización de grasa siliconada mejora la transferencia de calor entre el
+    Finalmente, queda en evidencia que la utilización de grasa siliconada mejora la transferencia de calor entre el
     componente y el disipador en un promedio de 20\%. 
     \\Además, probando distintas posiciones del disipador, concluimos que la posición vertical (posición 1) es la más eficiente.
     En esta orientación, la convección natural permite aprovechar el flujo del aire caliente hacia arriba, alejándolo del componente que 
@@ -214,8 +227,8 @@ se concluirá su posición más eficiente para la convección natural.
     Simulamos una confinación del circuito posicionandolo
     en una caja cerrada, observando cuantitativamente que la corriente mínima a la salida fue menor a la obtenida sin confinación.
     \\La utilización de un disipador para el LM317 ayuda a obtener el mejor rendimiento del mismo, evitando el estrangulamiento
-    térmico. Esto puede verse en los resultados
-    experimentales que cualquiera sea la posición del disipador, la potencia disipada siempre es mayor a la de un
+    térmico. Puede verse en los resultados
+    experimentales que cualquiera sea la posición del disipador, la potencia disipada siempre es mayor a la del
     componente sin disipador, por lo que la utilización de un disipador siempre es recomendable.
 
     \section{Apéndice}
