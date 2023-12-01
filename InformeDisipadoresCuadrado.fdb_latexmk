@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1701353778 "d:/VSCode/TP-TME-Disipadores/InformeDisipadoresCuadrado.tex" "InformeDisipadoresCuadrado.pdf" "InformeDisipadoresCuadrado" 1701353781 0
+["pdflatex"] 1701401673 "d:/VSCode/TP-TME-Disipadores/InformeDisipadoresCuadrado.tex" "InformeDisipadoresCuadrado.pdf" "InformeDisipadoresCuadrado" 1701401675 0
   "C:/Users/Facu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1701271185 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Facu/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1694042988 24141563 4801cadbdbd84acea28a117c3907e2d0 ""
   "C:/Users/Facu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -209,11 +209,11 @@
   "C:/Users/Facu/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "CircuitoDeMedicion.png" 1701274787 27866 322a6bd6643cb0fe6b0c8cb2c61ac524 ""
   "DisipadorFacuCuadrado.png" 1701348540 25491 12bc6a74919465db6e7175cc56cba1e2 ""
-  "InformeDisipadoresCuadrado.aux" 1701353780 3290 072da3be1b4cb68c1ae5022686d5eda9 "pdflatex"
-  "InformeDisipadoresCuadrado.out" 1701353780 1478 5db4ea9a765caee6569c5fa5d10bc041 "pdflatex"
-  "InformeDisipadoresCuadrado.tex" 1701353777 11771 dfd924c1ead5b23b0fb897d6e7704283 ""
+  "InformeDisipadoresCuadrado.aux" 1701401675 3291 d7abe28273e9a746733a1de1c1cb0aaa "pdflatex"
+  "InformeDisipadoresCuadrado.out" 1701401675 1481 eb6f5e0b27e13a57397906446fc86a65 "pdflatex"
+  "InformeDisipadoresCuadrado.tex" 1701401671 11772 d53903be54d71ab2f07035a4a7536ae8 ""
   "PlanoRamiCompleto.png" 1701274787 7180 821b1bbd7a5ad8fa46dd2d513d762754 ""
-  "d:/VSCode/TP-TME-Disipadores/InformeDisipadoresCuadrado.tex" 1701353777 11771 dfd924c1ead5b23b0fb897d6e7704283 ""
+  "d:/VSCode/TP-TME-Disipadores/InformeDisipadoresCuadrado.tex" 1701401671 11772 d53903be54d71ab2f07035a4a7536ae8 ""
   (generated)
   "InformeDisipadoresCuadrado.aux"
   "InformeDisipadoresCuadrado.log"
