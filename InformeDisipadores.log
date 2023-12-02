@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.10.30)  29 NOV 2023 13:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.10.30)  2 DEC 2023 11:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/rami/TME/TP-TME-Disipadores/InformeDisipadoresRectangular.tex
-(/home/rami/TME/TP-TME-Disipadores/InformeDisipadoresRectangular.tex
+**/home/rami/TME/TP-TME-Disipadores/InformeDisipadores.tex
+(/home/rami/TME/TP-TME-Disipadores/InformeDisipadores.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
 (/home/rami/.miktex/texmfs/install/tex/latex/ieeetran/IEEEtran.cls
@@ -603,11 +603,52 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip56
-) (/home/rami/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
+) (/home/rami/.miktex/texmfs/install/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2023-09-01 v3.3.6 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count323
+\l__siunitx_number_exponent_fixed_int=\count324
+\l__siunitx_number_min_decimal_int=\count325
+\l__siunitx_number_min_integer_int=\count326
+\l__siunitx_number_round_precision_int=\count327
+\l__siunitx_number_lower_threshold_int=\count328
+\l__siunitx_number_upper_threshold_int=\count329
+\l__siunitx_number_group_first_int=\count330
+\l__siunitx_number_group_size_int=\count331
+\l__siunitx_number_group_minimum_int=\count332
+\l__siunitx_angle_tmp_dim=\dimen309
+\l__siunitx_angle_marker_box=\box69
+\l__siunitx_angle_unit_box=\box70
+\l__siunitx_compound_count_int=\count333
+ (/home/rami/.miktex/texmfs/install/tex/latex/translations/translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+)
+\l__siunitx_table_tmp_box=\box71
+\l__siunitx_table_tmp_dim=\dimen310
+\l__siunitx_table_column_width_dim=\dimen311
+\l__siunitx_table_integer_box=\box72
+\l__siunitx_table_decimal_box=\box73
+\l__siunitx_table_uncert_box=\box74
+\l__siunitx_table_before_box=\box75
+\l__siunitx_table_after_box=\box76
+\l__siunitx_table_before_dim=\dimen312
+\l__siunitx_table_carry_dim=\dimen313
+\l__siunitx_unit_tmp_int=\count334
+\l__siunitx_unit_position_int=\count335
+\l__siunitx_unit_total_int=\count336
+ (/home/rami/.miktex/texmfs/install/tex/latex/tools/array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen314
+\ar@mcellbox=\box77
+\extrarowheight=\dimen315
+\NC@list=\toks39
+\extratabsurround=\skip57
+\backup@length=\skip58
+\ar@cellbox=\box78
+)) (/home/rami/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count323
-\l__pdf_internal_box=\box69
-) (InformeDisipadoresRectangular.aux
+\l__color_backend_stack_int=\count337
+\l__pdf_internal_box=\box79
+) (InformeDisipadores.aux
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
 
@@ -618,162 +659,164 @@ LaTeX Warning: Label `tab1' multiply defined.
 LaTeX Warning: Label `tab1' multiply defined.
 
 )
-\openout1 = `InformeDisipadoresRectangular.aux'.
+\openout1 = `InformeDisipadores.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 
 -- Lines per column: 56 (exact).
 (/home/rami/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count324
-\scratchdimen=\dimen309
-\scratchbox=\box70
-\nofMPsegments=\count325
-\nofMParguments=\count326
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count327
-\MPscratchDim=\dimen310
-\MPnumerator=\count328
-\makeMPintoPDFobject=\count329
-\everyMPtoPDFconversion=\toks40
+\scratchcounter=\count338
+\scratchdimen=\dimen316
+\scratchbox=\box80
+\nofMPsegments=\count339
+\nofMParguments=\count340
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count341
+\MPscratchDim=\dimen317
+\MPnumerator=\count342
+\makeMPintoPDFobject=\count343
+\everyMPtoPDFconversion=\toks41
 ) (/home/rami/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/home/rami/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \. on input line 17.
-LaTeX Info: Redefining \% on input line 17.
-Package hyperref Info: Link coloring OFF on input line 17.
- (InformeDisipadoresRectangular.out) (InformeDisipadoresRectangular.out)
+LaTeX Info: Redefining \. on input line 19.
+LaTeX Info: Redefining \% on input line 19.
+Package hyperref Info: Link coloring OFF on input line 19.
+ (InformeDisipadores.out) (InformeDisipadores.out)
 \@outlinefile=\write4
-\openout4 = `InformeDisipadoresRectangular.out'.
+\openout4 = `InformeDisipadores.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 37.
+ (/home/rami/.miktex/texmfs/install/tex/latex/translations/dicts/translations-basic-dictionary-spanish.trsl
+File: translations-basic-dictionary-spanish.trsl (spanish translation file `translations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' for `spanish'. on input line 19.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 39.
  (/home/rami/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 37.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 39.
  (/home/rami/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 37.
-<CircuitoDeMedicion.png, id=46, 411.03563pt x 216.81pt>
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 39.
+<CircuitoDeMedicion.png, id=50, 411.03563pt x 216.81pt>
 File: CircuitoDeMedicion.png Graphic file (type png)
 <use CircuitoDeMedicion.png>
-Package pdftex.def Info: CircuitoDeMedicion.png  used on input line 54.
-(pdftex.def)             Requested size: 129.0pt x 68.04408pt.
-<disipadorFacu.png, id=48, 377.61075pt x 298.716pt>
-File: disipadorFacu.png Graphic file (type png)
-<use disipadorFacu.png>
-Package pdftex.def Info: disipadorFacu.png  used on input line 61.
-(pdftex.def)             Requested size: 129.0pt x 102.04524pt.
-<PlanoRamiCompleto.png, id=49, 487.8225pt x 374.14781pt>
+Package pdftex.def Info: CircuitoDeMedicion.png  used on input line 57.
+(pdftex.def)             Requested size: 206.39685pt x 108.86787pt.
+
+Underfull \hbox (badness 1400) in paragraph at lines 47--60
+[]\OT1/ptm/m/n/10 Se analizar[]a la resistencia t[]ermica de los disipadores
+ []
+
+<DisipadorFacuCuadrado.png, id=52, 386.04225pt x 301.72725pt>
+File: DisipadorFacuCuadrado.png Graphic file (type png)
+<use DisipadorFacuCuadrado.png>
+Package pdftex.def Info: DisipadorFacuCuadrado.png  used on input line 64.
+(pdftex.def)             Requested size: 206.39685pt x 161.31888pt.
+<PlanoRamiCompleto.png, id=53, 487.8225pt x 374.14781pt>
 File: PlanoRamiCompleto.png Graphic file (type png)
 <use PlanoRamiCompleto.png>
-Package pdftex.def Info: PlanoRamiCompleto.png  used on input line 66.
-(pdftex.def)             Requested size: 129.0pt x 98.93745pt.
+Package pdftex.def Info: PlanoRamiCompleto.png  used on input line 69.
+(pdftex.def)             Requested size: 206.39685pt x 158.29993pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{/home/rami/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}{/home/rami/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}
+
+
+ <./CircuitoDeMedicion.png> <./DisipadorFacuCuadrado.png> <./PlanoRamiCompleto.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 85.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 82.
+(hyperref)                removing `superscript' on input line 85.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 82.
+(hyperref)                removing `math shift' on input line 85.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 82.
-
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 83.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 86.
 (/home/rami/.miktex/texmfs/install/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 94.
+(hyperref)                removing `math shift' on input line 97.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 94.
+(hyperref)                removing `superscript' on input line 97.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 94.
-
-[1{/home/rami/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}{/home/rami/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}
+(hyperref)                removing `math shift' on input line 97.
 
 
- <./CircuitoDeMedicion.png> <./disipadorFacu.png> <./PlanoRamiCompleto.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 149--156
+Underfull \hbox (badness 10000) in paragraph at lines 152--159
 
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 149--156
+Underfull \hbox (badness 1622) in paragraph at lines 152--159
 \OT1/ptm/m/n/10 A continuaci[]on puede verse una comparaci[]on entre las
  []
 
 
-Underfull \hbox (badness 1715) in paragraph at lines 178--184
-[]\OT1/ptm/m/n/10 La eficiencia de la disipaci[]on de calor puede variar
- []
-
-
-Underfull \hbox (badness 4266) in paragraph at lines 178--184
-\OT1/ptm/m/n/10 dependiendo de la orientaci[]on del disipador. En este
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 178--184
+Underfull \hbox (badness 10000) in paragraph at lines 181--186
 
  []
 
-
-Underfull \hbox (badness 4205) in paragraph at lines 208--220
-[]\OT1/ptm/m/n/10 Finalmente, podemos concluir que la utilizaci[]on de
+[2]
+Underfull \hbox (badness 1394) in paragraph at lines 221--233
+[]\OT1/ptm/m/n/10 Finalmente, queda en evidencia que la utilizaci[]on de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--220
+Underfull \hbox (badness 10000) in paragraph at lines 221--233
 \OT1/ptm/m/n/10 Adem[]as, probando distintas posiciones del disipador,
  []
 
 
-Underfull \hbox (badness 1769) in paragraph at lines 208--220
+Underfull \hbox (badness 1769) in paragraph at lines 221--233
 \OT1/ptm/m/n/10 Una observaci[]on importante del experimento es que la
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--220
+Underfull \hbox (badness 10000) in paragraph at lines 221--233
 \OT1/ptm/m/n/10 relativamente bajas. Simulamos una confinaci[]on del
  []
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 208--220
+Underfull \hbox (badness 1377) in paragraph at lines 221--233
 \OT1/ptm/m/n/10 circuito posicionandolo en una caja cerrada, observando
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--224
+Underfull \hbox (badness 10000) in paragraph at lines 235--237
 
  []
 
@@ -788,7 +831,9 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[2] (InformeDisipadoresRectangular.aux
+[3
+
+] (InformeDisipadores.aux
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
 )
@@ -800,21 +845,21 @@ L3 programming layer <2023-08-29>
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `InformeDisipadoresRectangular.out' has not changed.
-(rerunfilecheck)             Checksum: 18CB4B8626D9CE005580CB85E5C9FD64;1355.
+Package rerunfilecheck Info: File `InformeDisipadores.out' has not changed.
+(rerunfilecheck)             Checksum: EB6F5E0B27E13A57397906446FC86A65;1481.
  ) 
 Here is how much of TeX's memory you used:
- 39711 strings out of 477183
- 931199 string characters out of 5809612
+ 43476 strings out of 477183
+ 1049093 string characters out of 5809612
  1951807 words of memory out of 5000000
- 60530 multiletter control sequences out of 15000+600000
- 601403 words of font info for 124 fonts, out of 8000000 for 9000
+ 64277 multiletter control sequences out of 15000+600000
+ 602345 words of font info for 127 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 99i,12n,101p,484b,1012s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr5.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/urw-base35/utmb8a.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/urw-base35/utmbi8a.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/urw-base35/utmr8a.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/urw-base35/utmri8a.pfb>
-Output written on InformeDisipadoresRectangular.pdf (2 pages, 220537 bytes).
+ 99i,14n,101p,473b,1012s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr5.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/urw-base35/utmb8a.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/urw-base35/utmbi8a.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/urw-base35/utmr8a.pfb></home/rami/.miktex/texmfs/install/fonts/type1/public/urw-base35/utmri8a.pfb>
+Output written on InformeDisipadores.pdf (3 pages, 241382 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
- 108 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 170 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
+ 116 words of extra memory for PDF output out of 10000 (max. 10000000)
 
